@@ -1,0 +1,33 @@
+Lesson on abstraction
+```csharp 
+using System;
+
+namespace DefiningClasses
+{
+  class Forest
+  {
+    
+  }
+
+}
+```
+Wihin the namespace DefiningClasses, we build an empty Forest class in Forest.cs
+
+```csharp 
+using System;
+
+namespace DefiningClasses
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+    Forest f = new Forest(); 
+    }
+  }
+}
+```
+in the Main() within Program.cs, we made a new instamce of the forst class and store
+the result in the variable f 
+
+
