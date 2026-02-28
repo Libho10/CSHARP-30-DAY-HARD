@@ -11,6 +11,13 @@ using BasicClasses;
         public int trees; 
         public int age; 
 
+        public int Grow ()
+        {
+            trees += 30; 
+            age ++; 
+            return trees; 
+        }
+
     }
     class Program 
     {
@@ -23,6 +30,7 @@ using BasicClasses;
             f.age= 5; 
 
             Console.WriteLine(f.name);
+            Console.WriteLine(f.trees);
         }
     }
  }
